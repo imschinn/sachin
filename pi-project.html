@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PI Buying and Selling Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projects-css.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemedia.css">
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="nav-main">
+                <div class="logo-name">
+                   <span>SEARCHIN</span>
+                </div>
+                <div class="menu-icon" onclick="toggleMenu()">
+                   <span>&#9776;</span>
+                </div>
+           </div>
+        </nav>
+    </header>
+    <div id="side-menu" class="side-menu">
+        <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="#">About Sachin</a>
+        <a href="#">Contact Sachin</a>
+    </div>
+    <section class="hero">
+        <div class="content">
+            <h1>PI Buying and Selling</h1>
+            <p>A responsive platform for buying and selling PI currency with a user-friendly interface. Features secure login and registration, transaction management via PI addresses, with data securely stored in a MySQL database.</p>
+        </div>
+    </section>
+    
+    <section class="main-content">
+        <div class="content-block">
+            <div class="text">
+                <h2>Project Overview</h2>
+                <p>This project is a dynamic web application developed using Java Full Stack technologies like HTML, CSS, Servlets, JSP, and SQL databases. It serves as a platform for managing PI currency transactions, where users can securely register, log in, and perform transactions such as buying or selling PI currency. The core functionality of the project is built to ensure the protection of sensitive data, with each transaction being securely stored in a MySQL database. The entire process, from user interaction to transaction completion, is handled efficiently through server-side processing, ensuring fast and secure operations.</p>
+            </div>
+            <img src="../images/Screenshot (1).png" alt="Project Overview Screenshot">
+        </div>
+
+        <div class="content-block">
+            <div class="text">
+                <h2>Secure Transaction Management</h2>
+                <p>The platform emphasizes the security of transaction data, utilizing SQL for database management and MySQL for safe storage of user and transaction information. The server-side processing, built using Servlets and JSP, ensures that all transaction data is handled securely and that the integrity of transaction records is maintained throughout the process. The system uses robust error-handling mechanisms and validation processes to safeguard users during every stage of registration, login, and transaction management.</p>
+            </div>
+            <img src="../images/Screenshot (5).png" alt="Transaction Management Screenshot">
+        </div>
+
+        <div class="content-block">
+            <div class="text">
+                <h2>User-Friendly Interface</h2>
+                <p>The platform is designed with a fully responsive layout using HTML and CSS to offer a seamless experience on any device. Whether the user is registering, logging in, or managing PI addresses, the interface is built to make these processes intuitive and smooth. By leveraging Java Full Stack technologies, the platform ensures that users can securely and easily navigate through the site, complete transactions, and view their transaction history without compromising on security or usability.</p>
+            </div>
+            <img src="../images/Screenshot (6).png" alt="User-Friendly Interface Screenshot">
+        </div>
+    </section>
+
+    <section class="tech-stack">
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Servlets</li>
+            <li>JSP</li>
+            <li>MySQL</li>
+        </ul>
+    </section>
+    
+<section>
+    <div class="outer-box outer-box animate-on-scroll">
+        <div class="inner-box inner-box animate-on-scroll">
+            <div class="signup-header">
+                <h1>Contact Me</h1>
+            </div>
+            <form>
+                <div class="form-row">
+                    <div class="form-group name">
+                        <label for="fullname">Name</label>
+                        <input type="text" id="fullname" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group phone">
+                        <label for="mobile-number">Mobile Number</label>
+                        <input type="text" id="mobile-number" placeholder="Enter your mobile number">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group address">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" placeholder="Enter your address">
+                    </div>
+                    <div class="form-group email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <textarea id="message" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="form-row">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

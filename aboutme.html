@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey</title>
+    <link rel="stylesheet" href="your-style.css"> 
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    font-family: "Lato", sans-serif;
+    background-color: #FFFFFF; 
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container {
+    width: 100vw;
+    max-width: 1000px;
+    height: 100vh;
+    padding: 20px;
+    overflow-y: auto;
+    background: #f3f3f370;
+    border-radius: 10px;
+    line-height: 1.8;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    width: 100%;
+    text-align: justify;
+}
+h1 {
+    font-size: 2em;
+    color: #ffc63d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p {
+    color: #0e0d0d;
+}
+.back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #0f1824;
+    background-color: #ffc63d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.back-button:hover {
+    background-color: #f5d835;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+::-webkit-scrollbar-thumb {
+    background: #ffc63d;
+    border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="profile-section">
+        <img src="../images/my_image.jpg" alt="Your Photo" class="profile-pic">
+    </div>
+    <div class="content">
+        <h1>My Journey: From Village Beginnings to Tech Aspirations</h1>
+        <p>
+            My journey began in a small village, where I completed my 10th and 11th grades at Adarsh Public School, Uplai, in <span class="highlight">2016</span> and <span class="highlight">2017</span>. These years nurtured my early curiosity, as I laid the foundation of my academic journey. With a thirst for knowledge, I moved to Emerald Higher Secondary School in Jaora for my 12th grade in <span class="highlight">2018</span>, choosing Mathematics as my focus subject. This experience fueled my interest in analytical thinking and problem-solving, preparing me for greater challenges.
+            <br><br>
+            The next major step was my enrollment at Shri Yogindra Sagar Institute of Technology and Science in Ratlam, where I pursued a Bachelor’s degree in Information Technology from <span class="highlight">2018 to 2022</span>. My college life was transformative; here, I founded my first entrepreneurial venture, an online store called <span class="highlight">Jaora Collection</span>, through which I launched a Shopify website <a href="http://jaoracollection.in" target="_blank">jaoracollection.in</a>. I learned the ropes of e-commerce, handling Facebook ads, and engaging customers, which was an exciting experience that blended my tech skills with real-world business.
+            <br><br>
+            After completing my B.Tech in <span class="highlight">June 2022</span>, I took a month-long break to rejuvenate. Soon after, on <span class="highlight">July 24, 2022</span>, I moved to Indore, marking the beginning of a new phase in my career. I took on a role as an Accountant Assistant at Shankar Soya Pvt. Ltd., gaining experience in financial management. Alongside, I enrolled in a C and C++ course at Universal Informatics to sharpen my programming skills. After my role there, I pursued an intensive Java Full Stack Development course from March to December 2023. This training exposed me to real-world projects, like developing a pharmacy store and car rental platform. I delved into core technologies, honing my expertise in Java, Spring, and database management.
+            <br><br>
+            Eager to explore more, I taught myself Shopify, PHP, and freelancing basics through online classes and YouTube. My dedication led me to an internship at Ecommerce Web Guru Pvt. Ltd., where I gained hands-on experience with HTML, CSS, JavaScript, and Shopify, building dynamic websites and expanding my portfolio. With each step, I have embraced new skills and look forward to what lies ahead, driven by a passion for technology and lifelong learning.
+        </p>
+    </div>
+    <button onclick="window.location.href='index.html'" class="back-button">Go to Home</button>
+</div>
+
+</body>
+</html>

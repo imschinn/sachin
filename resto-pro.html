@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projects-css.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemedia.css">
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="nav-main">
+                <div class="logo-name">
+                   <span>SEARCHIN</span>
+                </div>
+                <div class="menu-icon" onclick="toggleMenu()">
+                   <span>&#9776;</span>
+                </div>
+           </div>
+        </nav>
+    </header>
+    <div id="side-menu" class="side-menu">
+        <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="#">About Sachin</a>
+        <a href="#">Contact Sachin</a>
+    </div>
+    <section class="hero">
+        <div class="content">
+            <h1>Burger Bliss</h1>
+            <p>A responsive restaurant platform showcasing various dishes like burgers, pizza, and cakes. Users can view details, place orders, and enjoy delivery services.</p>
+        </div>
+    </section>
+    <section class="main-content">
+        <div class="content-block">
+            <div class="text">
+                <h2>Project Overview</h2>
+                <p>This restaurant project allows users to explore a variety of dishes, including burgers, pizzas, and cakes. Built using HTML and CSS, the platform ensures that the design is responsive and attractive. Users can browse dish details and place orders online, while delivery services are also available. Special attention was given to the visual aspects of the site, ensuring a seamless experience across all devices.</p>
+            </div>
+            <img src="../images/pro0601.png" alt="Project Overview Screenshot">
+        </div>
+
+        <div class="content-block">
+            <div class="text">
+                <h2>Available Dishes</h2>
+                <p>The platform features a wide variety of dishes including burgers, pizzas, cakes, and more. Each dish has detailed descriptions, including ingredients and pricing. The design highlights the mouth-watering appeal of each dish, offering users an inviting and easy-to-navigate experience. Additionally, customers can filter dishes by category to find their favorites faster.</p>
+            </div>
+            <img src="../images/pro0603.png" alt="Available Dishes Screenshot">
+        </div>
+
+        <div class="content-block">
+            <div class="text">
+                <h2>Order Functionality</h2>
+                <p>The website provides users with a smooth ordering experience, allowing them to place their desired items in the cart and proceed to checkout. All orders are processed securely, and users can choose their preferred method of payment. The design ensures the checkout process is quick and user-friendly, offering a delightful experience from browsing to ordering.</p>
+            </div>
+            <img src="../images/pro0602.png" alt="Order Functionality Screenshot">
+        </div>
+
+        <div class="content-block">
+            <div class="text">
+                <h2>Delivery Service</h2>
+                <p>For added convenience, the platform offers a delivery service for all orders. Customers can enter their delivery address and track the status of their order in real-time. Whether it's a quick burger delivery or a full meal, the system ensures timely service with clear status updates throughout the process.</p>
+            </div>
+            <img src="../images/pro0605.png" alt="Delivery Service Screenshot">
+        </div>
+    </section>
+
+    <section class="extra-images">
+        <h2>Additional Screenshots</h2>
+        <div class="image-row">
+            <img src="../images/pro0604.png" alt="Screenshot 1">
+            <img src="../images/pro0606res.png" alt="Screenshot 2">
+            <img src="../images/pro0607res.png" alt="Screenshot 3">
+        </div>
+    </section>
+
+    <section class="tech-stack">
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+
+    <section>
+        <div class="outer-box outer-box animate-on-scroll">
+            <div class="inner-box inner-box animate-on-scroll">
+                <div class="signup-header">
+                    <h1>Contact Me</h1>
+                </div>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group name">
+                            <label for="fullname">Name</label>
+                            <input type="text" id="fullname" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group phone">
+                            <label for="mobile-number">Mobile Number</label>
+                            <input type="text" id="mobile-number" placeholder="Enter your mobile number">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group address">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" placeholder="Enter your address">
+                        </div>
+                        <div class="form-group email">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <textarea id="message" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

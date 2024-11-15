@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowerFix Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projects-css.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemedia.css">
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="nav-main">
+                <div class="logo-name">
+                   <span>SEARCHIN</span>
+                </div>
+                <div class="menu-icon" onclick="toggleMenu()">
+                   <span>&#9776;</span>
+                </div>
+           </div>
+        </nav>
+    </header>
+
+    <div id="side-menu" class="side-menu">
+        <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="#">About Sachin</a>
+        <a href="#">Contact Sachin</a>
+    </div>
+
+    <section class="hero">
+        <div class="content">
+            <h1>FlowerFix</h1>
+            <p>A platform where users can send flowers along with a personal message, and choose the card for their message. Built with HTML, CSS, animations, and JavaScript, it offers full responsiveness for both mobile and laptop views.</p>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="content-block">
+            <div class="text">
+                <h2>Project Overview</h2>
+                <p>FlowerFix is a responsive platform that allows users to send flowers and personalized messages to their friends. The project is designed with a user-friendly interface that ensures seamless functionality across various devices. Users can select from different types of flowers and attach a message to be delivered with their gift. The project was built using HTML, CSS, JavaScript, and animations, focusing on responsive design and providing an engaging user experience on both laptops and mobile devices.</p>
+            </div>
+            <img src="../images/pro02image01.png" alt="Project Overview Screenshot">
+        </div>
+    
+        <div class="content-block">
+            <div class="text">
+                <h2>Personalized Message Feature</h2>
+                <p>One of the key features of FlowerFix is the ability for users to attach a personalized message to the flowers they send. This feature allows users to express their sentiments with custom text, giving their gift a more personal touch. The messages can be written in a text box, and users can select from various pre-designed cards on which their message will be printed. This functionality was developed with JavaScript to ensure smooth user interactions.</p>
+            </div>
+            <img src="../images/pro02msg05.png" alt="Personalized Message Feature Screenshot">
+        </div>
+    
+        <div class="content-block">
+            <div class="text">
+                <h2>Flower Selection</h2>
+                <p>FlowerFix offers a wide range of flowers for users to choose from, making it easier to pick the perfect bouquet for their loved ones. The selection process is straightforward and allows users to browse through different categories of flowers. The project ensures that all elements are responsive, so users can effortlessly navigate through the site on mobile or desktop. This feature is powered by JavaScript and CSS animations, providing an elegant and interactive browsing experience.</p>
+            </div>
+            <img src="../images/pro02imgjs06.png" alt="Flower Selection Screenshot">
+        </div>
+    
+        <div class="content-block">
+            <div class="text">
+                <h2>Responsive Design</h2>
+                <p>The website was built with responsiveness in mind, ensuring a consistent user experience across all devices, from smartphones to large desktop screens. Special care was taken to adjust the layout and content presentation dynamically, so users enjoy an optimized experience regardless of the device they use. This was achieved using flexible CSS grids, media queries, and JavaScript, enhancing the fluidity of the design. The animations add to the visual appeal without compromising performance.</p>
+            </div>
+            <img src="../images/pro02responcive012.png" alt="Responsive Design Screenshot">
+        </div>
+    
+        <div class="content-block">
+            <div class="text">
+                <h2>Animations and Interactivity</h2>
+                <p>FlowerFix integrates subtle animations to improve user engagement and make the platform visually appealing. Hover effects, smooth transitions, and animated elements like buttons and cards were implemented using CSS and JavaScript. These animations are designed to guide the user through the process in a fluid manner, enhancing the overall usability of the platform. The animations work seamlessly on different screen sizes, contributing to an interactive yet lightweight user interface.</p>
+            </div>
+            <img src="../images/pro02image03.png" alt="Animations and Interactivity Screenshot">
+        </div>
+    </section>
+    <section class="extra-images">
+        <div class="image-row">
+            <img src="../images/pro02image04.png" alt="Additional Screenshot 1">
+            <img src="../images/pro02image02.png" alt="Additional Screenshot 2">
+            <img src="../images/pro02responcive0013.png" alt="Additional Screenshot 3">
+        </div>
+    </section>
+    <section class="tech-stack">
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+    </section>
+
+    <section>
+        <div class="outer-box outer-box animate-on-scroll">
+            <div class="inner-box inner-box animate-on-scroll">
+                <div class="signup-header">
+                    <h1>Contact Me</h1>
+                </div>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group name">
+                            <label for="fullname">Name</label>
+                            <input type="text" id="fullname" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group phone">
+                            <label for="mobile-number">Mobile Number</label>
+                            <input type="text" id="mobile-number" placeholder="Enter your mobile number">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group address">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" placeholder="Enter your address">
+                        </div>
+                        <div class="form-group email">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <textarea id="message" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
